@@ -6,7 +6,7 @@ import {
     CssBaseline,
     useScrollTrigger
 } from "@mui/material";
-import {Navigation} from "@/components/layout/Navigation";
+import {Navigation} from "@/components/Layout/Navigation";
 
 
 interface Props {

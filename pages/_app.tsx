@@ -1,6 +1,5 @@
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app'
-import { Inter } from 'next/font/google';
 import Head from "next/head";
 import { ThemeProvider } from "@mui/material/styles";
 import { theme } from "@/styles/theme";
