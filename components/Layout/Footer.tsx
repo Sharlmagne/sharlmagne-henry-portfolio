@@ -1,5 +1,6 @@
 import { Container, Box, Typography, Link } from "@mui/material";
 import onEmailClickHandler from '@/util/onEmailClickHandler';
+import Image from 'next/image';
 
 export default function Footer() {
   return <>
@@ -32,13 +33,13 @@ export default function Footer() {
                   </Typography>
                   <Box sx={{display: "flex", gap: "0.5rem", mt: "0.75rem", justifyContent: { xs: "center", md: "left"}}}>
                       <Link href="https://github.com/Sharlmagne" target="_blank">
-                        <img height="36px" width="36px" src="/logo/github-logo.svg" alt="github-logo"/>
+                        <Image height={36} width={36} src="/logo/github-logo.svg" alt="github-logo"/>
                       </Link>
                       <Link href="https://linkedin.com/in/sharlmagne-henry" target="_blank">
-                          <img height="36px" width="36px" src="/logo/linkedin-logo.svg" alt="linkedin-logo"/>
+                          <Image height={36} width={36} src="/logo/linkedin-logo.svg" alt="linkedin-logo"/>
                       </Link>
                       <Link href="https://www.hackerrank.com/sharlmagne_henry" target="_blank">
-                          <img height="36px" width="36px" src="/logo/hackerrank-logo.svg" alt="hackerrank-logo"/>
+                          <Image height={36} width={36} src="/logo/hackerrank-logo.svg" alt="hackerrank-logo"/>
                       </Link>
                   </Box>
               </Box>
@@ -46,5 +47,4 @@ export default function Footer() {
           </Container>
         </Box>
   </>;
-
 }
