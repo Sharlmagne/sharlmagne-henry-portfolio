@@ -19,9 +19,8 @@ export default function ProjectCards(project: ProjectCardsProps) {
                 }}>
                 <CardMedia
                     component="img"
-                    height="200"
+                    height="260"
                     image={project.image}
-                    alt="green iguana"
                     sx={{
                         bgcolor: "white",
                     }}
@@ -34,7 +33,7 @@ export default function ProjectCards(project: ProjectCardsProps) {
                         sx={{
                             overflow: "hidden",
                             textOverflow: "ellipsis",
-                            whiteSpace: "nowrap"
+                            // whiteSpace: "nowrap"
                         }}>
                         {project.title}
                     </Typography>
@@ -46,7 +45,6 @@ export default function ProjectCards(project: ProjectCardsProps) {
                             overflow: "hidden",
                             textOverflow: "ellipsis",
                             opacity: 0.7,
-                            // whiteSpace: "nowrap"
                         }}
                     >
                         {project.description}

@@ -14,7 +14,6 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import {Close, Menu} from "@mui/icons-material";
 import {useState} from "react";
 import {TransitionProps} from "@mui/material/transitions";
-import {auto} from "@popperjs/core";
 
 export const enum SectionIdEnum {
     Home = 'hero',
