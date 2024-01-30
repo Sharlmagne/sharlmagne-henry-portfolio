@@ -6,6 +6,18 @@ const projects = [
         image: "images/webstore.png"
     },
     {
+        title: "Fincallo Auto Loan Calculator (In Development)",
+        url: "https://fincallo.netlify.app",
+        description: "A web application that calculates the monthly payment for an auto loan. This application was implemented using the MERN stack. The application is still in development and the api is not fully utilized on the frontend. Additional features such as monthly operating cost, and total cost of ownership will be added in the future.",
+        image: "images/fincallo-preview.png"
+    },
+    {
+        title: "Bailey Finch Webpage",
+        url: "https://baileyfinch.com",
+        description: "A webpage for a US government contractor. The webpage was created using the 11ty as the static site generator and the Tailwind CSS framework for styling.",
+        image: "images/baileyfinch-preview.png"
+    },
+    {
         title: "NIS Inspector",
         url: "https://github.com/Sharlmagne/NIS-Inspector-Desktop-Application",
         description: "NIS Inspector is a desktop application created to simplify the tedious tasks of manual data entry that clerks have to perform on a weekly basis at National Insurance Scheme, Jamaica (NIS). NIS Inspector was created using Python and the PyQt module to develop a GUI to quickly import information, store it as json files and automatically transfer the data to word documents in no time.",
@@ -16,7 +28,9 @@ const projects = [
         url: "https://revlent.com",
         description: "A landing page for a startup company.  Figma and photoshop was used for the initial mockup, then implemented using the bootstrap library.",
         image: "images/revlent.png"
-    }
+    },
+
+
 ]
 
 export default projects;
