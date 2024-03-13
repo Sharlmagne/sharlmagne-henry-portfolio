@@ -31,7 +31,7 @@ export default function About() {
                             </Typography>
                         </Box>
                         <Button
-                            onClick={() => downloadPDF("sharlmange_henry_resume.pdf")}
+                            onClick={() => window.open('https://drive.google.com/file/d/1DDdwocXx0COKXIuSrxBd7GumVfWVIJFY/view?usp=drive_link')}
                             startIcon={<DownloadOutlined/>}
                             variant="contained"
                             color="secondary"
